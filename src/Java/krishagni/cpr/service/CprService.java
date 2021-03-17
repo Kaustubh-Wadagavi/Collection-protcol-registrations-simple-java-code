@@ -31,9 +31,9 @@ public class CprService extends ApiClient {
 				response.append(readLine);
 			}
 
-			System.out.println("\nNew Registered Participant is:" + "\n" + response.toString());
+			System.out.println("\nNew Registered Participant is:" + "\n" + response);
 		} else {
-			System.err.println("\n Unable to create new registration on the Server "+ response.toString() + "Check os.log file");
+			System.err.println("\n Unable to create new registration on the Server "+ response + "Check os.log file");
 		}
 	}
 }

@@ -40,20 +40,20 @@ public class CprDetails {
 			          "              {\n											 "+
 			          "                 \"name\": \"comments\",\r\n                  "+
 			          "                 \"udn\": \"comments\",\r\n                   "+
-			          "                 \"caption\": \"Comments\",\r\n               "+
+			          "                 \"caption\": \"comments\",\r\n               "+
 			          "                 \"value\": \"Pure Veg\"                      "+
 			          "              \n},\r                                          "+
 			          "             {\n                                              "+
 			          "                \"name\": \"diet\",\r\n                       "+
 			          "                \"udn\": \"diet\",\r\n                        "+
-			          "                \"caption\": \"Diet\",\r\n                    "+
+			          "                \"caption\": \"diet\",\r\n                    "+
 			          "                \"value\": \"Non Veg\"                        "+
 			          "             \n}                                              "+
 			          "          \n],\r\n                                            "+
 			          "         \"useUdn\": false                                    "+
 			          "     \n}                                                      "+
 			          " \n},\r\n                                                     "+
-			          " \"cpId\": 2,\r\n                                             "+
+			          " \"cpId\": 1,\r\n                                             "+
 			          " \"cpTitle\": \"Blood samples collection protocol\",\r\n      "+
 			          " \"cpShortTitle\": \"blood sample cp\",\r\n                   "+
 			          " \"ppid\": \"bloodsample00123\",\r\n                          "+
