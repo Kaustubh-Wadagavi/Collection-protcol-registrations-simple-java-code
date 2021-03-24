@@ -30,7 +30,6 @@ public class CprService extends ApiClient {
 			while ((readLine = httpResponseReader.readLine()) != null) {
 				response.append(readLine);
 			}
-
 			System.out.println("\nNew Registered Participant is:" + "\n" + response);
 		} else {
 			System.err.println("\n Unable to create new registration on the Server "+ response + "Check os.log file");

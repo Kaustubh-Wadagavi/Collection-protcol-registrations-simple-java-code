@@ -6,11 +6,11 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Base64;
 
-
 import Java.krishagni.cpr.service.CprService;
 
 public class ApiClient {
 
+	private static final String usernamePassword = "admin:Login@123";
 	private static final String API_URL = "http://localhost:8080/openspecimen/rest/ng/collection-protocol-registrations/";
 	public static URL serverUrl=null;
 	public static HttpURLConnection urlConnection = null;
@@ -25,7 +25,6 @@ public class ApiClient {
 	}
 
 	private static String login()throws IOException {
-		String usernamePassword = "admin:Login@123";
 		serverUrl = new URL(API_URL);
 		urlConnection = (HttpURLConnection) serverUrl.openConnection();
 		basicUrlAuthentication = "Basic "+ Base64.getEncoder().encodeToString(usernamePassword.getBytes());
