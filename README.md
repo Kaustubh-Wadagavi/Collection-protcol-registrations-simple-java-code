@@ -1,12 +1,8 @@
 # Collection-protcol-registration
 
 
-**How to run**
+**Setting up project in eclipse:** File --> Import --> Git --> Projects from git --> Existing Local Repository --> Add (Path to clonned repository)
+       
+**How to run:** Right-click ApiClient.java  RunAs --> Java Application.
 
-1. Clone project in eclipse add JRE 1.8.
-2. Right click on ApiClient.java file RunAs --> Java Application
-
-**NOTE: 1. Before running please configure URL, LoginName, Password which are present in ApiClient.java**
-      **2. Add JSON values in the CprDetails.java file correctoly**
-        
-
+**Note(Before running):** 1. Please configure the URL, Username, Password attributes present in ApiClient.java.                                                                                2. Please add correct values in the CprDetails.java under the PAYLOAD attribute. 
