@@ -5,4 +5,4 @@
        
 **How to run:** Right-click ApiClient.java  RunAs --> Java Application.
 
-**Note(Before running):** 1. Please configure the URL, Username, Password attributes present in ApiClient.java.                                                                                2. Please add correct values in the CprDetails.java under the PAYLOAD attribute. 
+**Note(Before running):**  Please configure the URL, Username, Password attributes present in ApiClient.java. Please add correct values in the CprDetails.java under the PAYLOAD attribute. 
